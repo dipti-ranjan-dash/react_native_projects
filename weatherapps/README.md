@@ -1,7 +1,7 @@
 
 # Weather app
 
-Tells the weather conditions and tempreture og a location you searched for 
+Tells the weather conditions and tempreture og a location you searched for , used https://openweathermap.org/ for current weather API 
 
 
 ## Demo of the app
