@@ -1,79 +1,26 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# Bedtime Stories App
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+The Bedtime Stories App is a React Native mobile application designed to offer personalized bedtime stories for children based on their age and selected genre. The app integrates with the ChatGPT Search API, leveraging OpenAI's language model to generate imaginative and tailored bedtime stories in real-time. Users input the child's age and genre preferences, and the app dynamically generates and presents engaging story recommendations. The user interface is intuitive and child-friendly, featuring smooth navigation and an attractive design. 
 
-## Step 1: Start the Metro Server
+Tech Stack used = React Native , OpenAI API , VS code , Adobe firefly , Figma 
+## Here is the preview of the app
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+https://www.linkedin.com/posts/dipti-ranjan-dash-899180197_reactdevelopment-reactnative-reactnativedeveloper-activity-7143139835455741952-QC5G?utm_source=share&utm_medium=member_desktop
+## API Reference
 
-To start Metro, run the following command from the _root_ of your React Native project:
+#### Get all items
 
-```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+```http
+  'https://api.openai.com/v1/engines/text-davinci-003/completions',
 ```
 
-## Step 2: Start your Application
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `age` | `number` | https://platform.openai.com/api-keys |
+| `genre` | `string` | https://platform.openai.com/api-keys |
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Screenshots
 
-### For Android
+![App Screenshot](https://x.com/Chinudash2/status/1737379370858414562?t=vvWb3BuROoT-8CJQyMf1BA&s=08)
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
