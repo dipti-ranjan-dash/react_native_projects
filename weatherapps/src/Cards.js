@@ -4,7 +4,9 @@ import {deviceHeight, deviceWidth} from './Dimensions';
 
 export default function Cards({name, image, navigation}) {
   return (
-    <TouchableOpacity style={{marginHorizontal: 10}} onPress={() => navigation.navigate('Details', {name})}>
+    <TouchableOpacity
+      style={{marginHorizontal: 10}}
+      onPress={() => navigation.navigate('Details', {name})}>
       <ImageBackground
         source={image}
         style={{height: deviceHeight / 5, width: deviceWidth / 2 - 50}}

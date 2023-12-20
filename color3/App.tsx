@@ -58,6 +58,7 @@ function App(): JSX.Element {
          </View>
         
      </TouchableOpacity>
+     
         <View  style={styles.cardElevated}>
          <Text style={styles.description}>Long Press to copy the color code</Text>
          <Text selectable={true} style={styles.colorcode}>{randomvalue}</Text>

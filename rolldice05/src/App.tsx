@@ -86,6 +86,7 @@ function App(): JSX.Element {
     <View style={[styles.container, styles.bg]}>
       {/* Display the Dice component with the current dice image */}
       <Dice imageUrl={diceImage} />
+      {/* prarentwithchild prop  */}
 
       {/* Pressable button to roll the dice */}
       <Pressable style={styles.btnContainer}
