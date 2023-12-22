@@ -32,7 +32,7 @@ export default function Home(props: {
           headers: {
             'Content-Type': 'application/json',
             Authorization:
-              'Bearer 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',
+              'Bearer YOUR-API-KEY',
           },
         },
       );
